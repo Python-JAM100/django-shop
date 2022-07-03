@@ -16,7 +16,7 @@ Here you can find the [full documentation for django-SHOP](https://django-shop.r
 ```bash
 git clone https://github.com/Python-JAM100/django-shop.git
 cd django-shop
-# git checkout terry_edit1 # uncomment this for checkout to terry_edit1 only when copy the whole terry build
+# git checkout meixian_edit1 # uncomment this for checkout to meixian_edit1 only when copy the whole meixian build
 pip install --user pipenv cookiecutter autopep8
 # cookiecutter https://github.com/awesto/cookiecutter-django-shop
 cookiecutter https://github.com/Python-JAM100/cookiecutter-django-shop
