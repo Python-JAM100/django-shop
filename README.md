@@ -14,8 +14,11 @@ Here you can find the [full documentation for django-SHOP](https://django-shop.r
 
 ## Fixed Installation Guide
 ```bash
+git clone https://github.com/Python-JAM100/django-shop.git
+cd django-shop
 pip install --user pipenv cookiecutter autopep8
-cookiecutter https://github.com/Python-JAM100/cookiecutter-django-shop/tree/terry_edit1
+# cookiecutter https://github.com/awesto/cookiecutter-django-shop
+cookiecutter https://github.com/Python-JAM100/cookiecutter-django-shop
 cd my-shop
 pipenv install --sequential --skip-lock
 npm install
