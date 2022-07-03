@@ -7,7 +7,7 @@ with open('README.md', 'r') as fh:
 
 REQUIREMENTS = [
     'Django>=2.1,<3.1',
-    'django-filer>=1.7',
+    'django-filer==2.0.2',
     'django-ipware',
     'django-fsm>=2.7',
     'django-fsm-admin',

@@ -9,7 +9,7 @@ django-appconf==1.0.3
 django-classy-tags==1.0.0
 django-cms==3.7.2
 django-entangled==0.3
-django-filer==1.7.1
+django-filer==2.0.2
 django-formtools==2.2
 django-fsm==2.7.0
 django-fsm-admin==1.2.4
