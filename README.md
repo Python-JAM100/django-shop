@@ -12,6 +12,17 @@
 
 Here you can find the [full documentation for django-SHOP](https://django-shop.readthedocs.io/en/latest/).
 
+## Fixed Installation Guide
+```bash
+pip install --user pipenv cookiecutter autopep8
+cookiecutter https://github.com/Python-JAM100/cookiecutter-django-shop/tree/terry_edit1
+cd my-shop
+pipenv install --sequential --skip-lock
+npm install
+pipenv run ./manage.py initialize_shop_demo
+export DJANGO_DEBUG=1
+pipenv run ./manage.py runserver
+```
 ## Build the database model out of the product's properties – not vice versa
 
 Most e-commerce systems are shipped with a predefined database model for products. But products can
